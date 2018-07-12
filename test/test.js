@@ -1,4 +1,5 @@
 let sever = require('../server/user');
+/*连接数据库*/
 require('../DB');
 
 /*测试注册*/

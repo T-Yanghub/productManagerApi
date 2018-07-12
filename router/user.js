@@ -28,7 +28,7 @@ router.get('/:username', async (req,res)=>{
 /*删除*/
 
 router.delete('/:username',async(req,res)=>{
-    await userSever.deleeteUser(req.params.username);
+    await userSever.deleteUser(req.params.username);
     res.success();
 });
 module.exports=router;
